@@ -1,0 +1,6 @@
+__pycache__
+*.pyc
+/index.html
+/robots.txt
+/sitemap.xml
+/sitemap-pages.xml

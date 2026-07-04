@@ -1,0 +1,39 @@
+title = "すごいジャン"
+site_url = "https://sugoijan.dev/"
+intro = "these are my (forever WIP) projects"
+extra_sitemaps = []
+
+[robots]
+user_agent = "*"
+allow = ["/"]
+disallow = []
+
+[[sections]]
+title = "Games"
+
+[[sections.entries]]
+label = "ヘッドブレイカー"
+href = "https://sugoijan.dev/heddobureika/"
+note = "jigsaw puzzles with funny shapes and multiplayer support"
+# sitemap = "https://example.com/game/sitemap.xml"
+
+[[sections.entries]]
+label = "Detonito"
+href = "https://sugoijan.dev/detonito/"
+note = "minesweeper clone (with AFK mode for Twitch)"
+# sitemap = "https://example.com/game/sitemap.xml"
+
+[[sections.entries]]
+label = "Goonli"
+href = "https://sugoijan.dev/goonli/"
+note = "go on-line (and other board games to play agains Twitch chat)"
+# sitemap = "https://example.com/game/sitemap.xml"
+
+# [[sections]]
+# title = "Projects"
+#
+# [[sections.entries]]
+# label = "Project name"
+# href = "https://example.com"
+# note = "Optional short description"
+# sitemap = "https://example.com/sitemap.xml"

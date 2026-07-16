@@ -15,19 +15,25 @@ title = "Games"
 label = "ヘッドブレイカー"
 href = "https://sugoijan.dev/heddobureika/"
 note = "jigsaw puzzles with funny shapes and multiplayer support"
-# sitemap = "https://example.com/game/sitemap.xml"
+# sitemap = "https://sugoijan.dev/heddobureika/sitemap.xml"
 
 [[sections.entries]]
 label = "Detonito"
 href = "https://sugoijan.dev/detonito/"
 note = "minesweeper clone (with AFK mode for Twitch)"
-# sitemap = "https://example.com/game/sitemap.xml"
+# sitemap = "https://sugoijan.dev/detonito/sitemap.xml"
 
 [[sections.entries]]
 label = "Goonli"
 href = "https://sugoijan.dev/goonli/"
 note = "go on-line (and other board games to play agains Twitch chat)"
-# sitemap = "https://example.com/game/sitemap.xml"
+# sitemap = "https://sugoijan.dev/goonli/sitemap.xml"
+
+[[sections.entries]]
+label = "NoyNoyNoy"
+href = "https://sugoijan.dev/noynoynoy/"
+note = "Find the invisible Noy (by following the sound)."
+# sitemap = "https://sugoijan.dev/noynoynoy/sitemap.xml"
 
 # [[sections]]
 # title = "Projects"

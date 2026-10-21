@@ -12,28 +12,40 @@ disallow = []
 title = "Games"
 
 [[sections.entries]]
+label = "Dito Dito Infinito (demo)"
+href = "https://sugoijan.dev/ditoditoinfinito/"
+note = "Dance with your fingers (like DDR/StepMania)"
+sitemap = "https://sugoijan.dev/ditoditoinfinito/sitemap.xml"
+
+[[sections.entries]]
 label = "ヘッドブレイカー"
 href = "https://sugoijan.dev/heddobureika/"
-note = "jigsaw puzzles with funny shapes and multiplayer support"
-# sitemap = "https://sugoijan.dev/heddobureika/sitemap.xml"
+note = "Jigsaw puzzles with funny shapes and multiplayer support"
+sitemap = "https://sugoijan.dev/heddobureika/sitemap.xml"
 
 [[sections.entries]]
 label = "Detonito"
 href = "https://sugoijan.dev/detonito/"
-note = "minesweeper clone (with AFK mode for Twitch)"
+note = "Minesweeper clone (with AFK mode for Twitch)"
 # sitemap = "https://sugoijan.dev/detonito/sitemap.xml"
 
 [[sections.entries]]
 label = "Goonli"
 href = "https://sugoijan.dev/goonli/"
-note = "go on-line (and other board games to play agains Twitch chat)"
+note = "Go on-line (and other board games to play agains Twitch chat)"
 # sitemap = "https://sugoijan.dev/goonli/sitemap.xml"
 
 [[sections.entries]]
 label = "NoyNoyNoy"
 href = "https://sugoijan.dev/noynoynoy/"
-note = "Find the invisible Noy (by following the sound)."
-# sitemap = "https://sugoijan.dev/noynoynoy/sitemap.xml"
+note = "Find the Invisible Noy (ode to Find the Invisible Cow)."
+sitemap = "https://sugoijan.dev/noynoynoy/sitemap.xml"
+
+[[sections.entries]]
+label = "Waterle"
+href = "https://sugoijan.dev/waterle/"
+note = "Is it tap water? Or is it not?"
+sitemap = "https://sugoijan.dev/waterle/sitemap.xml"
 
 # [[sections]]
 # title = "Projects"

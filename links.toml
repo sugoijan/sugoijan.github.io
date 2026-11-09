@@ -12,7 +12,7 @@ disallow = []
 title = "Games"
 
 [[sections.entries]]
-label = "Dito Dito Infinito (demo)"
+label = "Dito Dito Infinito"
 href = "https://sugoijan.dev/ditoditoinfinito/"
 note = "Dance with your fingers (like DDR/StepMania)"
 sitemap = "https://sugoijan.dev/ditoditoinfinito/sitemap.xml"
@@ -47,11 +47,11 @@ href = "https://sugoijan.dev/waterle/"
 note = "Is it tap water? Or is it not?"
 sitemap = "https://sugoijan.dev/waterle/sitemap.xml"
 
-# [[sections]]
-# title = "Projects"
-#
-# [[sections.entries]]
-# label = "Project name"
-# href = "https://example.com"
-# note = "Optional short description"
-# sitemap = "https://example.com/sitemap.xml"
+[[sections]]
+title = "Tools"
+
+[[sections.entries]]
+label = "TimeZoo"
+href = "https://sugoijan.dev/timezoo/"
+note = "How a given time is observed around the world."
+# sitemap = "https://sugoijan.dev/timezoo/sitemap.xml"

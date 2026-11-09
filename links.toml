@@ -32,7 +32,7 @@ note = "Minesweeper clone (with AFK mode for Twitch)"
 [[sections.entries]]
 label = "Goonli"
 href = "https://sugoijan.dev/goonli/"
-note = "Go on-line (and other board games to play agains Twitch chat)"
+note = "Go on-line (and other board games to play against Twitch chat)"
 # sitemap = "https://sugoijan.dev/goonli/sitemap.xml"
 
 [[sections.entries]]

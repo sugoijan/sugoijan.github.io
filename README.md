@@ -47,6 +47,15 @@ python3 scripts/build.py --check
 
 That is useful locally to confirm the generated files on disk match `links.toml`.
 
+## Fonts
+
+`fonts/` holds a committed subset of Sarasa Term J Regular covering Latin and kana, under the license in `fonts/OFL.txt`. Kanji are not included and fall back to the next font in the stack. To regenerate the subset:
+
+```sh
+pip install fonttools brotli
+./scripts/subset-fonts.sh ~/Library/Fonts/Sarasa-SuperTTC.ttc
+```
+
 ## Deploy
 
-Pushing to `main` triggers `.github/workflows/deploy.yml`, which runs `scripts/build.py` and deploys only the generated files to GitHub Pages (source must be set to "GitHub Actions" in the repo settings). Pull requests run the build as a validation check without deploying.
+Pushing to `main` triggers `.github/workflows/deploy.yml`, which runs `scripts/build.py` and deploys only the generated files and `fonts/` to GitHub Pages (source must be set to "GitHub Actions" in the repo settings). Pull requests run the build as a validation check without deploying.

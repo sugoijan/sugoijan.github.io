@@ -231,6 +231,13 @@ def render_html(config: dict[str, object]) -> str:
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{title}</title>
     <style>
+      @font-face {{
+        font-family: "Sarasa Term J";
+        font-weight: 400;
+        font-display: swap;
+        src: url("fonts/sarasa-term-j-400.woff2") format("woff2");
+      }}
+
       :root {{
         color-scheme: light;
         --background: #fafafa;
@@ -259,7 +266,7 @@ def render_html(config: dict[str, object]) -> str:
         padding: 4rem 1.25rem;
         background: var(--background);
         color: var(--foreground);
-        font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, monospace;
+        font-family: "Sarasa Term J", "Iosevka Term", ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, monospace;
       }}
 
       main {{
@@ -275,7 +282,7 @@ def render_html(config: dict[str, object]) -> str:
 
       h1 {{
         font-size: 1rem;
-        font-weight: 600;
+        font-weight: 400;
         letter-spacing: 0.08em;
         text-transform: uppercase;
       }}
@@ -295,7 +302,7 @@ def render_html(config: dict[str, object]) -> str:
         margin-bottom: 0.75rem;
         color: var(--muted);
         font-size: 0.85rem;
-        font-weight: 600;
+        font-weight: 400;
         letter-spacing: 0.08em;
         text-transform: uppercase;
       }}

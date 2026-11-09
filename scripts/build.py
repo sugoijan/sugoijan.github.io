@@ -239,6 +239,16 @@ def render_html(config: dict[str, object]) -> str:
         --line: #d8d8d8;
       }}
 
+      @media (prefers-color-scheme: dark) {{
+        :root {{
+          color-scheme: dark;
+          --background: #111111;
+          --foreground: #ededed;
+          --muted: #a0a0a0;
+          --line: #333333;
+        }}
+      }}
+
       * {{
         box-sizing: border-box;
       }}
